@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\js"
+    "\\assets\\js",
+    "\\Restaurant",
+    "\\Restaurant\\assets",
+    "\\Restaurant\\assets\\css"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Restaurant\\index.html",
   "PreviewInSolutionExplorer": false
 }
