@@ -2,9 +2,15 @@ body {
     background-color: lightslategrey;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 #title {
+    
+}
+
+#topbar {
+    background-color: lightslategrey;
     text-align: center;
 }
 
@@ -35,13 +41,25 @@ body {
     text-decoration: underline;
 }
 
+
+
+h2 {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 .courses {
     list-style-type: none;
     display: inline-flex;
+    padding-bottom: 10px;
 }
 
-.courses > li {
+.courses > a {
     padding: 2px;
+}
+
+.container {
+    text-align: center;
 }
 
 h3 {
@@ -50,4 +68,13 @@ h3 {
 
 img {
     border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.copyright {
+    margin-top: 20px;
 }

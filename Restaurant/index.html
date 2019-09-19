@@ -1,10 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Chez Breguet</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
-    </head>
-    <body>
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Chez Breguet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+</head>
+<body>
+    <div id="topbar">
         <h1 id="title">Chez Breguet</h1>
         <div class="topnav">
             <a class="active" href="">Menu</a>
@@ -12,45 +15,50 @@
             <a href="contact.html">Contact</a>
             <a href="location.html">Location</a>
         </div>
+    </div>
 
-        <h2>Menu</h2>
-        <ul class="courses">
-            <li><a href="#apps">Appetizers</a></li>
-            <li><a href="#mains">Mains</a></li>
-            <li><a href="#desserts">Desserts</a></li>
-        </ul>
+    <h2>Menu</h2>
+    <div class="courses">
+        <a href="#apps">Appetizers</a>
+        <a href="#mains">Mains</a>
+        <a href="#desserts">Desserts</a>
+    </div>
 
-        <div class="container">
-            <div id="apps">
-                <h3>Appetizers</h3>
-                <ul>
-                    <li>Scallops</li>
-                    <li>Asparagus Risotto</li>
-                    <li>Linguine Vongole</li>
-                </ul>
-                <img src="./assets/img/asp_risotto.jpeg" alt="Asparagus Risotto" title="Asparagus Risotto" width="250" height="125" />
+    <div class="container">
+        <div id="apps">
+            <h3>Appetizers</h3>
+            <div class="dishes">
+                <p>Scallops</p>
+                <p>Asparagus Risotto</p>
+                <p>Linguine Vongole</p>
             </div>
-            
-            <div id="mains">
-                <h3>Mains</h3>
-                <ul>
-                    <li>Beef Wellington</li>
-                    <li>Chicken Caprese</li>
-                    <li>Salmon with haricot vert</li>
-                </ul>
-                <img src="./assets/img/beef_wellington.jpeg" alt="Beef Wellington" title="Beef Wellington" width="250" height="125"/>
-            </div>
-
-            <div id="desserts">
-                <h3>Desserts</h3>
-                <ul>
-                    <li>Panna Cotta</li>
-                    <li>Chocolat Fondant</li>
-                    <li>Creme Brulee</li>
-                </ul>
-                <img src="./assets/img/creme_brulee.jpeg" alt="Creme Brulee" title="Creme Brulee" width="250" height="125" />
-            </div>
+            <img src="./assets/img/asp_risotto.jpeg" alt="Asparagus Risotto" title="Asparagus Risotto" width="250" height="125" />
         </div>
-        <p>Copyright 2019: <a href="https://www.aup.edu">Louis Breguet</a></p>
-    </body>
+
+        <div id="mains">
+            <h3>Mains</h3>
+            <div class="dishes">
+                <p>Beef Wellington</p>
+                <p>Chicken Caprese</p>
+                <p>Salmon with haricot vert</p>
+            </div>
+            <img src="./assets/img/beef_wellington.jpeg" alt="Beef Wellington" title="Beef Wellington" width="250" height="125" />
+        </div>
+
+        <div id="desserts">
+            <h3>Desserts</h3>
+            <div class="dishes">
+                <p>Panna Cotta</p>
+                <p>Chocolat Fondant</p>
+                <p>Creme Brulee</p>
+            </div>
+            <img src="./assets/img/creme_brulee.jpeg" alt="Creme Brulee" title="Creme Brulee" width="250" height="125" />
+        </div>
+    </div>
+  
+    <p class="copyright">Copyright 2019: <em><a href="https://www.aup.edu">Louis Breguet</a></em></p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
